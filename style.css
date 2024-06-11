@@ -7,17 +7,21 @@ nav {
     justify-content: space-between;
     background-color: #1a1244;
     padding: 10px 150px;
+    border-bottom: 4px solid #401e63;
 }
 nav ul {
     display: flex;
 }
 nav img {
-    height: 120px;
-    width: 100px;
+    height: 80px;
+    width: 70px;
 
 }
 .logo {
-   display: flex;
+   display: flex;   
+}
+.logo img {
+  margin: 10px;
 }
 nav ul li {
     list-style: none;
@@ -39,6 +43,39 @@ nav ul li a:hover {
 nav div {
     color: white;
     font-size: 20px;
+}
+/* hero area code start here */
+header {
+    background-image: url('image/covered\ van.jpg');
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
+.searchbox-icon-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchbox-icon-parent i {
+    color: red;
+    background-color: green;
+    font-size: 25px;
+    height: 40px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: -5px;
+}
+.searchbox-icon-parent input {
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 20px;
 
 }
