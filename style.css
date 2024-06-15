@@ -8,6 +8,8 @@ nav {
     background-color: #1a1244;
     padding: 10px 150px;
     border-bottom: 4px solid #401e63;
+    position: sticky;
+    top: 0;
 }
 nav ul {
     display: flex;
@@ -46,7 +48,7 @@ nav div {
 }
 /* hero area code start here */
 header {
-    background-image: url('image/computer.jpg');
+    background-image: url('image/html-tag.png');
     padding: 200px 0;
     background-repeat: no-repeat;
     background-position: center;
